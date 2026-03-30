@@ -1,0 +1,98 @@
+{
+  "name": "TRUSS SEO MCP — SEO Command Center",
+  "description": "SEO Command Center for AI agents. Keyword research, site audits, content optimization, schema markup, SERP previews, and competitor analysis — all from your AI agent. No external API keys needed for basic analysis.",
+  "version": "1.0.0",
+  "documentationUrl": "https://github.com/claw-factory/truss-seo-mcp#readme",
+  "provider": {
+    "organization": "TRUSS / claw-factory",
+    "url": "https://claw-factory.github.io/truss-site"
+  },
+  "supportedInterfaces": [
+    {
+      "url": "https://claw-factory.github.io/truss-site/a2a/v1",
+      "protocolBinding": "HTTP+JSON",
+      "protocolVersion": "1.0"
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false,
+    "extendedAgentCard": false
+  },
+  "securitySchemes": {
+    "bearer": {
+      "type": "http",
+      "scheme": "bearer",
+      "description": "TRUSS license key (optional — basic analysis available without authentication)"
+    }
+  },
+  "security": [],
+  "defaultInputModes": ["text/plain", "application/json"],
+  "defaultOutputModes": ["text/plain", "application/json"],
+  "pricing": {
+    "free": true,
+    "paid": {
+      "amount": 29,
+      "currency": "USD",
+      "interval": "month",
+      "url": "https://truss.dev/seo"
+    }
+  },
+  "skills": [
+    {
+      "id": "seo_keyword_research",
+      "name": "Keyword Research",
+      "description": "Analyze keyword opportunities, search intent, and competitive difficulty for target topics",
+      "tags": ["seo", "keywords", "research"],
+      "examples": ["Research keywords for 'project management software' in the B2B SaaS space"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "seo_site_audit",
+      "name": "Site Audit",
+      "description": "Comprehensive technical SEO audit covering meta tags, headings, links, page speed indicators, and structural issues",
+      "tags": ["seo", "audit", "technical"],
+      "examples": ["Audit https://example.com for technical SEO issues"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "seo_content_brief",
+      "name": "Content Brief Generator",
+      "description": "Generate detailed content briefs with target keywords, outline structure, and optimization recommendations (Pro)",
+      "tags": ["seo", "content", "copywriting"],
+      "examples": ["Create a content brief for a blog post targeting 'best CRM for startups'"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain", "application/json"]
+    },
+    {
+      "id": "seo_schema_markup",
+      "name": "Schema Markup Generator",
+      "description": "Generate structured data / JSON-LD schema markup for articles, products, FAQs, local businesses, and more",
+      "tags": ["seo", "schema", "json-ld", "structured-data"],
+      "examples": ["Generate FAQ schema markup for these questions about our product"],
+      "inputModes": ["text/plain", "application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "seo_serp_preview",
+      "name": "SERP Preview",
+      "description": "Preview how a page will appear in Google search results, with title and description length validation",
+      "tags": ["seo", "serp", "meta"],
+      "examples": ["Preview the SERP appearance for my homepage meta tags"],
+      "inputModes": ["text/plain", "application/json"],
+      "outputModes": ["text/plain", "application/json"]
+    },
+    {
+      "id": "seo_competitor_analysis",
+      "name": "Competitor Analysis",
+      "description": "Analyze competitor content strategies and identify keyword gaps and opportunities (Pro)",
+      "tags": ["seo", "competitors", "strategy"],
+      "examples": ["Compare my SEO positioning against competitor.com for our target keywords"],
+      "inputModes": ["text/plain"],
+      "outputModes": ["application/json"]
+    }
+  ]
+}
