@@ -1,0 +1,15 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      TRUSS_LICENSE_KEY:
+        type: string
+        description: "License key for Pro features (optional — free tier includes 3 queries/day)"
+      ANTHROPIC_API_KEY:
+        type: string
+        description: "Anthropic API key for AI-powered content briefs and competitor analysis (optional)"
+      OPENAI_API_KEY:
+        type: string
+        description: "OpenAI API key for AI-powered content briefs and competitor analysis (optional)"
+    required: []
