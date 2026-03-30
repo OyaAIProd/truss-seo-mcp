@@ -1,7 +1,7 @@
 {
   "name": "truss-seo-mcp",
-  "version": "1.0.0",
-  "description": "SEO Command Center for AI agents \u2014 keyword research, site audits, content optimization, schema markup",
+  "version": "1.0.1",
+  "description": "SEO Command Center for AI agents — keyword research, site audits, content optimization, schema markup",
   "type": "module",
   "bin": {
     "truss-seo": "./dist/index.js"
@@ -14,6 +14,8 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
+    "model-context-protocol",
     "seo",
     "keyword-research",
     "site-audit",
@@ -21,9 +23,14 @@
     "serp",
     "content-optimization",
     "claude",
+    "claude-code",
+    "cursor",
     "ai",
+    "ai-agent",
+    "agent",
     "marketing",
-    "claude-code"
+    "search-engine",
+    "tool"
   ],
   "author": "TRUSS",
   "license": "MIT",
