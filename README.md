@@ -1,5 +1,7 @@
 # truss-seo-mcp
 
+[![SafeSkill 77/100](https://img.shields.io/badge/SafeSkill-77%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/claw-factory-truss-seo-mcp)
+
 **SEO Command Center for AI agents.** Keyword research, site audits, content optimization, schema markup, SERP previews, and competitor analysis — all from your AI agent.
 
 This MCP server gives Claude Code (or any MCP-compatible agent) full SEO analysis capabilities. No external API keys needed for basic analysis — page scoring, keyword density, and meta tag generation all run locally. Add an AI key for enhanced content briefs and competitor strategy insights.
