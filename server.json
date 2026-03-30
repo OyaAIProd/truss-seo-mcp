@@ -1,14 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.claw-factory/truss-seo-mcp",
-  "title": "TRUSS SEO MCP \u2014 SEO Command Center",
+  "title": "TRUSS SEO MCP — SEO Command Center",
   "description": "SEO Command Center for Claude Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "truss-seo-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "runtimeHint": "node",
       "transport": {
         "type": "stdio"
