@@ -1,7 +1,7 @@
 {
   "name": "truss-seo-mcp",
   "version": "1.0.0",
-  "description": "SEO Command Center for AI agents — keyword research, site audits, content optimization, schema markup",
+  "description": "SEO Command Center for AI agents \u2014 keyword research, site audits, content optimization, schema markup",
   "type": "module",
   "bin": {
     "truss-seo": "./dist/index.js"
@@ -36,5 +36,6 @@
     "tsx": "^4.19.0",
     "@types/better-sqlite3": "^7.6.0",
     "@types/node": "^22.0.0"
-  }
+  },
+  "mcpName": "io.github.claw-factory/truss-seo-mcp"
 }
